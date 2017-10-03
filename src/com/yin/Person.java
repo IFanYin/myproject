@@ -1,0 +1,8 @@
+package com.yin;
+
+public class Person {
+public void sayHello(){
+	System.out.println("Hello");
+	
+}
+}
