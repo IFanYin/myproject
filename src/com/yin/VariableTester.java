@@ -28,6 +28,11 @@ public class VariableTester {
 	   Random r = new Random();
            int n1 = r.nextInt(6)+1;
            System.out.println(3 >= 2);
+           
+           
+
+       
+       
 	}
 
 }
