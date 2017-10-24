@@ -17,9 +17,7 @@ public class Hello {
     System.out.println(age > 25);
     
     
-    String s = new String("Hello");
-    int len = s.length();
-    System.out.println("len:"+ len);   
+  
     
     
     

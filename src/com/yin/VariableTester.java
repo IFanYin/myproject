@@ -24,14 +24,29 @@ public class VariableTester {
         boolean pass = false;
         System.out.println(!pass);
         System.out.println(pass);
-	   String s = new String("Hello");
-	   Random r = new Random();
-           int n1 = r.nextInt(6)+1;
-           System.out.println(3 >= 2);
+	    String s = new String("Hello");
+	    Random r = new Random();
+        int n1 = r.nextInt(6)+1;
+        System.out.println(3 >= 2);
            
            
-
+           
+        int len = s.length();
+        System.out.println("len:"+ len); 
        
+        float f = 5.0f;
+        int x =5;
+        int y =3;
+        int z = x % y;
+        System.out.println(z);
+        
+        System.out.println(x >> 1);
+        x++;
+//      x = x + 1
+        x--;
+//      x = x - 1
+        System.out.println(x);
+        
        
 	}
 
