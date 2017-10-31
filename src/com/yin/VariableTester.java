@@ -46,7 +46,12 @@ public class VariableTester {
         x--;
 //      x = x - 1
         System.out.println(x);
-        
+//     字串轉整數
+       String date = "123";
+       int n = Integer.parseInt(date);
+       
+//     整數轉字串
+       String mydate = String.valueOf(n);
        
 	}
 
