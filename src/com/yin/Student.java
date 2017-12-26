@@ -13,4 +13,13 @@ int chinese;
       return (english + math +chinese)/3;
       
   }
+Graduatesyudent gstu = new Graduatesyudent();
+ gstu.thesis = 
+
+
+
+
+
 }
+
+
