@@ -4,7 +4,6 @@ import java.util.Random;
 
 public class Poker {
 
-	public static void main(String[] args) {
     Random random = new Random();
     int[] cards = new int[52];
     String flowers = "SHDC";
@@ -13,15 +12,23 @@ public class Poker {
     	for (int i= 0; i < cards.length;i++) {
         cards[i] = i;
         System.out.println((i%13)+1+""+(flowers.charAt(i / 13)));
-        
     	}
-    
 	}
     public void shuffle() {
     	for (int i=0 ;i <cards.length;i++){
     		int r =random.nextInt(52);
     		int temp = cards [i];
-    		
+    		cards[i] = cards[r];
+    		cards[r] = temp;
+    	}
+    }
+    public void show() {
+    	for (int i = 0;i<cards.length;i++){
+    		int c =cards[i];
+    		System.out.println((c%13)+1+""+(flowers.charAt(i / 13))+"");
+    		if(i % 13 == 0){
+    			System.out.println();
+    		}
     	}
     }
 }
